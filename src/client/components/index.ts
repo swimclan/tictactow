@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GameContainer = styled.div`
-  width: 80vw;
+  width: 70vw;
   height: 100vh;
   margin: auto;
   text-align: center;
@@ -39,7 +39,7 @@ export const BoardCell = styled.div`
 export const CellButton = styled.button<{ $highlight?: boolean }>`
   outline: none;
   border: none;
-  background-color: ${(props) => (props.$highlight ? "#aaddaa" : "#fff")};
+  background-color: ${(props) => (props.$highlight ? "#aaddaa" : "#ddd")};
   font-size: 8em;
   font-weight: 800;
   height: 100%;
